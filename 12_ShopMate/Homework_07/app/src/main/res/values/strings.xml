@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Homework07</string>
+    <string name="title_login_fragment">Login</string>
+    <string name="title_shopping_list_fragment">Shopping List</string>
+    <string name="title_register">Create New Account</string>
+    <string name="label_tagLoginFragment">Login_Fragment</string>
+    <string name="label_tagRegisterFragment">Register_Fragment</string>
+    <string name="label_login_fragment_title">Login</string>
+    <string name="label_register_fragment_title">Register Account</string>
+    <string name="loginFragment">LoginFragment</string>
+    <string name="registerFragment">RegisterFragment</string>
+
+    <string name="label_etEmail">Email</string>
+    <string name="label_etPassword">Password</string>
+    <string name="label_tvAccountName">Name</string>
+    <string name="label_new_list">New Shopping List</string>
+    <string name="label_btnLogin">Login</string>
+    <string name="label_btnLogout">Logout</string>
+    <string name="label_btnCreateAccount">Create New Account</string>
+    <string name="label_btnLogOut">Log Out</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_cancel">Cancel</string>
+
+    <string name="label_errorEmail">Enter valid email!</string>
+    <string name="label_errorName">Enter valid name!</string>
+    <string name="label_errorPassword">Enter your password!</string>
+    <string name="label_error_forum_title">Please enter shoppingList title</string>
+    <string name="label_error_forum_description">Please enter shoppingList description</string>
+    <string name="label_enter_email_password">Enter Email and password</string>
+    <string name="label_error_comment_post">Enter a Comment</string>
+
+    <string name="label_email_password_field">Please Enter email and password field</string>
+    <string name="label_email_field">Please enter email field</string>
+    <string name="label_proper_email">Please enter proper email</string>
+    <string name="label_password_field">Please enter password field</string>
+    <string name="label_full_name_email_password_field">Please enter FullName, Email and Password Field</string>
+    <string name="label_full_name_field">Please enter FullName Field</string>
+    <string name="label_ok">OK</string>
+    <string name="label_alert">"Alert!!"</string>
+
+
+    <string name="label_hint_item">Enter Item</string>
+    <string name="label_hint_price">Enter Price</string>
+    <string name="label_btn_add">ADD</string>
+    <string name="label_btn_invite">Invite</string>
+
+    <string name="title_user_list">User List</string>
+    <string name="label_user_list">All User List</string>
+    <string name="label_friends_list">Friends List</string>
+    <string name="label_invite">Invite</string>
+    <string name="title_item_list">Item List</string>
+
+    <string name="label_please_enter_item_name_price">Please enter item name and price</string>
+    <string name="label_please_enter_item_name">Please enter item name</string>
+    <string name="label_please_enter_item_price">Please enter item price</string>
+    <string name="label_is_got_acquired">Is acquired</string>
+    <string name="label_still_not_acquired">Still not acquired</string>
+    <string name="label_added_by">Added by: </string>
+    <string name="label_total">Total Amount: $ </string>
+
+</resources>

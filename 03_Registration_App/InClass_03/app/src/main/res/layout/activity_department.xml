@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".DepartmentActivity">
+
+    <RadioGroup
+        android:id="@+id/radioDepartment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RadioButton
+            android:id="@+id/radioCompScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_comp" />
+
+        <RadioButton
+            android:id="@+id/radioSoftInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_soft" />
+
+        <RadioButton
+            android:id="@+id/radioBioInfo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_bio" />
+
+        <RadioButton
+            android:id="@+id/radioDataScience"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/label_data" />
+    </RadioGroup>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        android:weightSum="2">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/label_Cancel"
+            android:backgroundTint="@color/light_gray"
+            android:textColor="@color/black"
+            android:layout_margin="20dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:id="@+id/btnSelct"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/light_gray"
+            android:text="@string/label_select"
+            android:textColor="@color/black"
+            android:layout_weight="1"
+            android:layout_margin="20dp" />
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

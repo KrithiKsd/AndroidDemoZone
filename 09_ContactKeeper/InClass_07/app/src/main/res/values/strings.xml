@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">InClass_07</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="label_add_new_contact">Add New Contact</string>
+    <string name="label_all_contact">All Contact Details</string>
+    <string name="title_contact_list">Contact List</string>
+    <string name="title_contact_detail">Contact Details</string>
+    <string name="label_cName">Name:</string>
+    <string name="label_CEmail">Email:</string>
+    <string name="label_phone">Phone:</string>
+    <string name="label_c_type">Type:</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_name_hint">Enter Name</string>
+    <string name="label_email_hint">Enter Email</string>
+    <string name="label_phone_hint">Enter Phone</string>
+    <string name="label_type_hint">Enter Type</string>
+    <string name="label_delete">Delete</string>
+    <string name="label_update">Update</string>
+    <string name="title_contact_update">Update Contact</string>
+    <string name="tag_contact_list">ContactList Fragment</string>
+    <string name="tag_add_new_contact">AddNewContact Fragment</string>
+    <string name="tag_contact_detail_fragment">ContactDetailFragment</string>
+    <string name="tag_update_contact_fragment">UpdateContactFragment</string>
+    <string name="label_contact_deleted">A contact was deleted</string>
+    <string name="label_contact_added">A new contact was added</string>
+    <string name="label_contact_updated">A contact was updated</string>
+    <string name="label_please">Please \t</string>
+    <string name="label_field">\t Field</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_all">Enter All</string>
+
+</resources>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">InClass06</string>
+    <string name="label_generate">Generate</string>
+    <string name="label_select_complexity">Select Complexity</string>
+    <!--<string name="label_times">Times</string>-->
+    <string name="label_times">%d Times</string>
+    <string name="label_average">Average:</string>
+    <string name="label_zero">0.0</string>
+    <string name="label_zero_slash">0/</string>
+    <string name="label_slash">/</string>
+    <string name="title_main_activity">Main Activity</string>
+    <string name="error_complexity">Please select your complexity</string>
+</resources>

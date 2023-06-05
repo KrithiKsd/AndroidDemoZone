@@ -1,0 +1,282 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TipCalculatorActivity">
+
+    <TextView
+        android:id="@+id/tvBillTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_bill"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/etBillTotal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"/>
+
+    <EditText
+        android:id="@+id/etBillTotal"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="15dp"
+        android:ems="10"
+        android:hint="@string/label_hint"
+        android:inputType="number|numberDecimal"
+        android:maxLength="10"
+        android:maxLines="1"
+        android:minHeight="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/tvBillTotal"
+        app:layout_constraintTop_toTopOf="parent"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTipPercent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_tip"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioTip"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvBillTotal"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/radioTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="12dp"
+        app:layout_constraintStart_toEndOf="@+id/tvTipPercent"
+        app:layout_constraintTop_toBottomOf="@id/etBillTotal">
+
+        <RadioButton
+            android:id="@+id/radioTen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:checked="true"
+            android:text="@string/label_radio_ten"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioFifteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_fifteen"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioEighteen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_eighteen"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioCustom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_custom"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+    <TextView
+        android:id="@+id/tvCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_custom"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/seekBar"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTipPercent"
+        android:textColor="@color/black"/>
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:max="50"
+        android:progress="40"
+        app:layout_constraintEnd_toEndOf="@+id/radioTip"
+        app:layout_constraintStart_toEndOf="@+id/tvCustom"
+        app:layout_constraintTop_toTopOf="@+id/tvProgress" />
+
+    <TextView
+        android:id="@+id/tvProgress"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="15dp"
+        android:text="@string/label_progress"
+        android:textSize="16sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/seekBar"
+        app:layout_constraintTop_toBottomOf="@id/radioTip"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_tip_value"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTipValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvCustom"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTipValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_tip_value_def"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tvTip"
+        app:layout_constraintTop_toBottomOf="@id/seekBar"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_total"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTotalValue"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTip"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTotalValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_total_def"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tvTotal"
+        app:layout_constraintTop_toBottomOf="@id/tvTipValue"
+        android:textColor="@color/black"/>
+
+
+    <TextView
+        android:id="@+id/tvSplit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_split"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/radioSplit"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTotal"
+        android:textColor="@color/black"/>
+
+    <RadioGroup
+        android:id="@+id/radioSplit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:orientation="horizontal"
+        android:paddingTop="15dp"
+        app:layout_constraintStart_toEndOf="@id/tvSplit"
+        app:layout_constraintTop_toBottomOf="@id/tvTotalValue">
+
+        <RadioButton
+            android:id="@+id/radioOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:checked="true"
+            android:text="@string/label_radio_one"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioTwo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_two"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioThree"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_three"
+            android:textColor="@color/black"/>
+
+        <RadioButton
+            android:id="@+id/radioFour"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/label_radio_four"
+            android:textColor="@color/black"/>
+    </RadioGroup>
+
+
+    <TextView
+        android:id="@+id/tvTotal_Person"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_total_person"
+        android:textSize="16sp"
+        app:layout_constraintBottom_toBottomOf="@+id/tvTP_Value"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/radioSplit"
+        android:textColor="@color/black"/>
+
+    <TextView
+        android:id="@+id/tvTP_Value"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/label_tp_value"
+        android:textSize="16sp"
+        app:layout_constraintStart_toEndOf="@id/tvTotal_Person"
+        app:layout_constraintTop_toBottomOf="@id/radioSplit"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:id="@+id/btnClear"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/label_clear"
+        android:textAllCaps="false"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/gray"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/tvTotal_Person" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Weather</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_weather_forecast">Weather Forecast</string>
+    <string name="label_comma">,</string>
+    <string name="label_fahrenheit">F</string>
+    <string name="label_max">Max: </string>
+    <string name="label_min">Min: </string>
+    <string name="label_percentage">%</string>
+    <string name="label_humidity">Humidity:</string>
+    <string name="title_cities">Cities</string>
+</resources>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">InClassThree</string>
+    <string name="label_main">Main</string>
+    <string name="label_registration">Registration</string>
+    <string name="label_department">Department</string>
+    <string name="label_profile">Profile</string>
+    <string name="label_comp">Computer Science</string>
+    <string name="label_soft">Software Info. Systems</string>
+    <string name="label_bio">Bio Informatics</string>
+    <string name="label_data">Data Science</string>
+    <string name="label_name">Name:</string>
+    <string name="label_name_hint">Enter Name</string>
+    <string name="label_email">Email:</string>
+    <string name="label_email_hint">Enter Email</string>
+    <string name="label_id">ID:</string>
+    <string name="label_id_hint">Enter ID</string>
+    <string name="label_dept">Dept:</string>
+    <string name="label_select">Select</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_welcome">Welcome!!</string>
+    <string name="label_register">Register</string>
+    <string name="label_Cancel">Cancel</string>
+    <string name="label_validation_error_empty_fields">Please Fill the Empty Fields</string>
+    <string name="label_validation_error_name_length">Please enter less than 20 characters in Name</string>
+    <string name="label_validation_error_select_department">Please select the department by clicking select button</string>
+    <string name="label_validation_error_email_id">Please Enter Valid Email Address</string>
+    <string name="label_validation_error_select_dept">Please Select one of the Department</string>
+
+
+</resources>

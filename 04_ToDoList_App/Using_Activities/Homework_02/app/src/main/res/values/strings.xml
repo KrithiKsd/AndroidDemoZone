@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">Homework02</string>
+    <string name="label_ToDoYouHave">You Have  </string>
+    <string name="label_ToDoYouHave_task">tasks</string>
+    <string name="label_UpcomingTask">Upcoming Tasks</string>
+    <string name="label_ViewTask">VIEW TASKS</string>
+    <string name="label_CreateTask">CREATE A TASK</string>
+
+    <string name="label_name">Name:</string>
+    <string name="label_task_name_hint">Task Name</string>
+    <string name="label_date">Date:</string>
+    <string name="label_set_date">Set date</string>
+    <string name="label_priority">Priority:</string>
+    <string name="label_high">High</string>
+    <string name="label_medium">Medium</string>
+    <string name="label_low">Low</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_submit">Submit</string>
+
+    <string name="label_validation_error_taskname">Please Enter Task Name</string>
+    <string name="label_validation_error_setDate">Please set Date for your task</string>
+
+    <string name="label_TaskInfo">Task Information</string>
+    <string name="label_TaskName">Name:</string>
+    <string name="label_TaskDate">Date:</string>
+    <string name="label_TaskPriority">Priority:</string>
+    <string name="label_DeleteTask">DELETE</string>
+    <string name="label_Cancel">CANCEL</string>
+    <string name="label_alert_title_list">Select Task</string>
+
+    <string name="label_ToDoName">Name</string>
+    <string name="label_ToDoDate">Date</string>
+    <string name="label_ToDoPriority">Priority</string>
+    <string name="label_ToDoNone">None</string>
+    <string name="label_zero">0</string>
+    <string name="label_empty_list">The List is Empty</string>
+    <string name="label_todolist_activity">To Do List</string>
+    <string name="label_todo_display_activity">Display Task</string>
+    <string name="label_todo_create_activity">Create Task</string>
+
+
+
+</resources>

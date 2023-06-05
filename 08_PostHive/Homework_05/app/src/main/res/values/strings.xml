@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Howmework_05</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_etEmail">Email</string>
+    <string name="label_etPassword">Password</string>
+    <string name="label_btnLogin">Login</string>
+    <string name="label_btnCreateAccount">Create New Account</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="label_tvAccountName">Full Name</string>
+    <string name="title_login_fragment">Login</string>
+    <string name="title_create_new_account_fragment">Create New Account</string>
+    <string name="title_post_list_fragment">Posts</string>
+    <string name="title_create_post_fragment">Create Post</string>
+    <string name="label_create_post">Create Post</string>
+    <string name="label_logout">Logout</string>
+    <string name="label_welcome">Welcome</string>
+    <string name="label_showing_page">Showing Page %d out of %d</string>
+    <string name="label_hint_enter_post">Enter Post</string>
+    <string name="label_at">at</string>
+    <string name="page_number">1</string>
+    <string name="label_ok">Ok</string>
+    <string name="label_please_fill_data">Please fill the required data</string>
+    <string name="label_enter">Enter</string>
+    <string name="label_enter_post">Enter Post !</string>
+    <string name="label_email_password_field">Email and Password Field</string>
+    <string name="label_email_field">Email Field</string>
+    <string name="label_proper_email">Proper Email</string>
+    <string name="label_password_field">Password Field</string>
+    <string name="label_full_name_email_password_field">FullName, Email and Password Field</string>
+    <string name="label_full_name_field">FullName Field</string>
+    <string name="label_valid_name">Valid Name, It should not exceed 20 characters</string>
+    <string name="label_post_will_be_deleted">Alert: Post will be deleted !</string>
+    <string name="label_post_delete">Do you still want to delete this post?</string>
+    <string name="tag_PostsListFragment">PostsListFragment</string>
+    <string name="tag_LoginFragment">LoginFragment</string>
+    <string name="tag_CreatePostFragment">CreatePostFragment</string>
+    <string name="tag_CreateNewAccountFragment">CreateNewAccountFragment</string>
+    <string name="error_post_length">Post length should below 140 characters!</string>
+</resources>

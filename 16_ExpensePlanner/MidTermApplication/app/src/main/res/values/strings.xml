@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">MidTermApplication</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="tag_expense">Expense</string>
+    <string name="tag_pick_category">PickCategory</string>
+    <string name="tag_add_expense">AddExpense</string>
+    <string name="tag_expense_summary">ExpenseSummary</string>
+    <string name="label_task_name">Name:</string>
+    <string name="label_expense_amount">Amount:</string>
+    <string name="label_expense_name_hint">Expense Name</string>
+    <string name="label_expense_amount_hint">Expense amount</string>
+
+    <string name="label_task_date">Date:</string>
+    <string name="label_set_date">Set date</string>
+    <string name="label_category">Category</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_submit">Submit</string>
+    <string name="title_add_new_expense">Add New Expense</string>
+    <string name="title_expense_summary">Expense Summary</string>
+    <string name="title_pick_category">Pick Category</string>
+
+    <string name="label_validation_error_task_name">Please Enter Task Name</string>
+    <string name="label_validation_error_setDate">Please set Date for your task</string>
+    <string name="label_task_empty">Task is empty</string>
+    <string name="title_expense">Expenses</string>
+    <string name="label_no_of_rec">No. of Records</string>
+    <string name="label_total_expense">Total Expenses</string>
+    <string name="label_expense_summary">Expenses Summary</string>
+    <string name="label_add_expense">Add Expense</string>
+    <string name="label_open_bracket">(</string>
+    <string name="label_close_bracket">)</string>
+    <string name="label_dollar_currency">$</string>
+    <string name="label_zero">0</string>
+    <string name="label_dollar_zero">$0.00</string>
+    <string name="label_pick_category">Pick Category</string>
+    <string name="label_none">None</string>
+    <string name="label_validation_pick_category">Please select category</string>
+    <string name="label_enter_amount">Enter Amount</string>
+    <string name="label_enter_category">Enter category</string>
+</resources>

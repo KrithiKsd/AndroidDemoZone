@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">Homework_04</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_users_fragment_title">Users</string>
+    <string name="label_filter_by_state_fragment_title">Filter By State</string>
+    <string name="label_sort_fragment_title">Sort</string>
+    <string name="label_filter">Filter</string>
+    <string name="label_sort">Sort</string>
+    <string name="label_years_old">%d Years Old</string>
+    <string name="label_all_states">All States</string>
+
+    <string name="label_age_descending">AgeDescending</string>
+    <string name="label_age_ascending">AgeAscending</string>
+    <string name="label_name_descending">NameDescending</string>
+    <string name="label_name_ascending">NameAscending</string>
+    <string name="label_state_descending">StateDescending</string>
+    <string name="label_state_ascending">StateAscending</string>
+
+    <string name="label_descending">Descending</string>
+    <string name="label_ascending">Ascending</string>
+
+    <string-array name="label_sort_list">
+        <item>Age</item>
+        <item>Name</item>
+        <item>State</item>
+    </string-array>
+    <string name="tag_users_fragment">UsersFragment</string>
+    <string name="tag_filter_by_state_fragment">FilterByStateFragment</string>
+    <string name="tag_sort_fragment">SortFragment</string>
+
+
+</resources>

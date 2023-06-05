@@ -1,0 +1,57 @@
+<resources>
+    <string name="app_name">Homework_06</string>
+
+    <string name="label_etEmail">Email</string>
+    <string name="label_etPassword">Password</string>
+    <string name="label_tvAccountName">Name</string>
+    <string name="label_title_hint">Forum Title</string>
+    <string name="label_description_hint">Forum Description</string>
+    <string name="label_new_forum">New Forum</string>
+    <string name="label_btnLogin">Login</string>
+    <string name="label_btnLogout">Logout</string>
+    <string name="label_btnCreateAccount">Create New Account</string>
+    <string name="label_btnLogOut">Log Out</string>
+    <string name="label_tagLoginFragment">Login_Fragment</string>
+    <string name="label_tagRegisterFragment">Register_Fragment</string>
+    <string name="label_tagCreatePostFragment">Create Post Fragment</string>
+    <string name="label_tagPostListFragment">Posts_List_Fragment</string>
+    <string name="label_errorEmail">Enter valid email!</string>
+    <string name="label_errorName">Enter valid name!</string>
+    <string name="label_errorPassword">Enter your password!</string>
+    <string name="label_button_submit">Submit</string>
+    <string name="label_button_cancel">Cancel</string>
+    <string name="label_login_fragment_title">Login</string>
+    <string name="label_register_fragment_title">Register Account</string>
+    <string name="title_forum">Forum</string>
+    <string name="title_login_fragment">Login</string>
+    <string name="title_register">Create New Account</string>
+    <string name="title_new_forum">New Forum</string>
+    <string name="title_forums">Forums</string>
+    <string name="label_error_forum_title">Please enter forum title</string>
+    <string name="label_error_forum_description">Please enter forum description</string>
+    <string name="label_enter_email_password">Enter Email and password</string>
+
+    <string name="label_email_password_field">Enter Email and Password Field</string>
+    <string name="label_email_field">Enter Email Field</string>
+    <string name="label_proper_email">Enter Proper Email</string>
+    <string name="label_password_field">Enter Password Field</string>
+    <string name="label_full_name_email_password_field">Enter FullName, Email and Password Field</string>
+    <string name="label_full_name_field">Enter FullName Field</string>
+    <string name="label_ok">OK</string>
+    <string name="label_alert">"Alert!!"</string>
+
+    <string name="loginFragment">LoginFragment</string>
+    <string name="registerFragment">RegisterFragment</string>
+    <string name="forumsFragment">ForumsFragment</string>
+    <string name="forumFragment">ForumFragment</string>
+    <string name="newForumFragment">NewForumFragment</string>
+    <string name="label_post">Post</string>
+    <string name="label_write_comment">Write Comment</string>
+    <string name="label_comments"> Comments</string>
+    <string name="label_likes">Likes|</string>
+    <string name="label_zero_like">0 Like|</string>
+    <string name="label_please_write_before_post">Please write something before clicking post button !</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

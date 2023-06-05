@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">HomeWork03</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="label_UpcomingTask">Upcoming Tasks</string>
+    <string name="label_ViewTask">VIEW TASKS</string>
+    <string name="label_CreateTask">CREATE A TASK</string>
+    <string name="label_task_name">Name:</string>
+    <string name="label_task_name_hint">Task Name</string>
+    <string name="label_task_date">Date:</string>
+    <string name="label_set_date">Set date</string>
+    <string name="label_task_priority">Priority:</string>
+    <string name="label_high_priority">High</string>
+    <string name="label_medium_priority">Medium</string>
+    <string name="label_low_priority">Low</string>
+    <string name="label_cancel">Cancel</string>
+    <string name="label_submit">Submit</string>
+    <string name="label_validation_error_task_name">Please Enter Task Name</string>
+    <string name="label_validation_error_setDate">Please set Date for your task</string>
+    <string name="label_TaskInfo">Task Information</string>
+    <string name="label_TaskName">Name:</string>
+    <string name="label_TaskDate">Date:</string>
+    <string name="label_TaskPriority">Priority:</string>
+    <string name="label_DeleteTask">Delete</string>
+    <string name="label_Cancel">Cancel</string>
+    <string name="label_alert_title_list">Select Task</string>
+    <string name="label_ToDoName">Name</string>
+    <string name="label_ToDoDate">Date</string>
+    <string name="label_ToDoPriority">Priority</string>
+    <string name="label_ToDoNone">None</string>
+    <string name="label_empty_list">The List is Empty</string>
+    <string name="label_todolist_fragment_title">To Do List</string>
+    <string name="label_todo_display_fragment_title">Display Task</string>
+    <string name="label_todo_create_fragment_title">Create Task</string>
+    <string name="label_tagToDoListFragment">ToDoList_Fragment</string>
+    <string name="label_tagCreateTaskFragment">CreateTask_Fragment</string>
+    <string name="label_tagDisplayTaskFragment">DisplayTask_Fragment</string>
+    <string name="label_you_have_task">You have %d tasks</string>
+    <string name="label_task_empty">Task is empty</string>
+
+
+</resources>
